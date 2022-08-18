@@ -96,11 +96,18 @@
             </section>
             <hr>
 
-        <!--Add Collapsible with java-->
-            <div>
-                <!--Description
-                Content
-                Legal stuff-->
+        <!--Collapsible-->
+            <button class="collapsible">
+                Description <i class="fa-solid fa-angle-down"></i>
+            </button>
+            <div class="collapsibleContent">
+                <p>Description Details</p>
+            </div>
+            <button class="collapsible">
+                Fabric Content <i class="fa-solid fa-angle-down"></i>
+            </button>
+            <div class="collapsibleContent">
+                <p>Content Details</p>
             </div>
 
         <!--Bottom Nav-->
@@ -130,6 +137,8 @@
                 <p class="copyright">
                     <small>Webpage Designed by Taylor Faber</small>
                 </p>
+        
+        <script src="index.js"></script>
         <script src="https://kit.fontawesome.com/7449cde613.js" crossorigin="anonymous"></script>
     </body>
 

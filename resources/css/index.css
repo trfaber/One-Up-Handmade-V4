@@ -362,7 +362,35 @@ body.menu {
             input[type=radio] {
                 accent-color: #4dac19;
             }
-
+        .collapsible {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.75em 1.5em;
+            width: 100%;
+            box-sizing: border-box;
+            background-color: #4dac19;
+            color: #fefefe;
+            cursor: pointer;
+            outline: none;
+            border: none;
+            font-size: 1em;
+            transition: 0.4s;
+        }
+            .active, .collapsible:hover {
+                background-color: #e2b619;
+                color: #383838;
+            }
+        .collapsibleContent {
+            padding: 0 0.75em;
+            max-height: 0;
+            overflow: hidden;
+            background-color: #fefefe;
+            font-size: 0.75em;
+            transition: max-height 0.2s ease-out;
+        }
+        .active > .fa-angle-down, .active:hover > .fa-angle-down {
+            visibility: hidden;
+        }      
 /*Cart*/
     div.checkout {
         width: 85%;

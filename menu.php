@@ -21,7 +21,7 @@
         <!--php-->
         <!--Menu-->
             <nav class="menu">
-                <a href="index.php" class="menu-icon"> 
+                <a class="menu-icon"> 
                     <i class="fa-solid fa-bars"></i>
                 </a>
             <!--Shopping Cart-->
@@ -43,6 +43,8 @@
                 <li class="menu"><a href="about.php">About</a></li>
                 <li class="menu"><a href="contact.php">Contact</a></li>
             </ul>
+        
+        <script src="index.js"></script>
         <script src="https://kit.fontawesome.com/7449cde613.js" crossorigin="anonymous"></script>
     </body>
 

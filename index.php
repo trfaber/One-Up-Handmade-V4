@@ -136,7 +136,9 @@
                 <p class="copyright">
                     <small>Webpage Designed by Taylor Faber</small>
                 </p>
-                <script src="https://kit.fontawesome.com/7449cde613.js" crossorigin="anonymous"></script>
+
+        <script src="index.js"></script>
+        <script src="https://kit.fontawesome.com/7449cde613.js" crossorigin="anonymous"></script>
     </body>
 
 </html>
