@@ -162,7 +162,7 @@ input[type=submit]:hover {
                 .fa-solid {
                     z-index: 99;
                 }
-/* Menu Page Nav*/
+/* Mobile menu Nav*/
 body.menu {
     color: #fefefe;
     background-color: #4dac19;
@@ -302,7 +302,9 @@ body.menu {
             div.listing {
                 color: black;
                 padding: 15px;
+                margin: auto;
                 text-align: center;
+                height: 2.25em;
             }
 
 /*Item Page*/
@@ -649,6 +651,7 @@ footer.bottom-nav {
         .cart {
             font-size: 1.5em;
         }
+        
     /*Item Size*/
     div.gallery > a {
         width: 50%;

@@ -21,7 +21,7 @@
         <!--php-->
         <!--Menu-->
             <nav class="menu">
-                <a class="menu-icon"> 
+                <a class="menu-icon" onclick="goBack()"> 
                     <i class="fa-solid fa-bars"></i>
                 </a>
             <!--Shopping Cart-->
