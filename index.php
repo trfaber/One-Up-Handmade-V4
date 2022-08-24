@@ -27,9 +27,9 @@
             <header>
                 <img class="logo" src="./resources/images/logo.jpg" alt="One Up Handmade Logo">
                 <nav class="top-nav">
-                        <a href="menu.php" class="menu-icon"> 
+                        <button class="menu-icon"> 
                             <i class="fa-solid fa-bars"></i>
-                        </a>
+                        </button>
                     <!--Nav Links-->
                         <ul class="top-nav">
                             <li class="top-nav"><a href="index.php">Home</a></li>
@@ -52,6 +52,23 @@
                 </nav>
             </header>
             <br>
+
+            <!--Mobile menu-->
+            <nav class="mobile">
+                <div class="menu-wrapper">
+                    <input class="search-menu" type="text" placeholder="Find Cool Stuff">
+                    <span class="search-menu-icon">
+                        <!--<i class="fa-solid fa-x fa-fw fa-2xs"></i>-->
+                        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                    </span>
+                </div>
+                <ul class="menu">
+                    <li class="menu"><a href="index.php">Home</a></li>
+                    <li class="menu"><a href="index.php#shop">Shop</a></li>
+                    <li class="menu"><a href="about.php">About</a></li>
+                    <li class="menu"><a href="contact.php">Contact</a></li>
+                </ul>
+            </nav>
 
         <!-- Logo Banner -->
             <img class="banner" src="./resources/images/banner.png" alt="Slow Fashion for littles in Fandoms you Love."> 
