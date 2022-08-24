@@ -588,7 +588,7 @@ footer.bottom-nav {
         background-color: #4dac19;
         padding-top: 2em;
         height: 100%; 
-        width: 60%; /* 0 width - change this with JavaScript */
+        width: 0; /* 0 width - change this with JavaScript */
         position: fixed; 
         z-index: 1; 
         top: 4em; 
@@ -632,12 +632,12 @@ footer.bottom-nav {
                 padding: 8px;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-between;
             }
                 li.menu {
                     width: 100%;
                     box-sizing: border-box;
-                    padding: 0.5em 1.5em; 
+                    text-align: center;
+                    padding: 1em;
                 }
                     li.menu a {
                         color: #fefefe;

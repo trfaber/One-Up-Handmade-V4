@@ -27,31 +27,48 @@
             <header>
                 <img class="logo" src="./resources/images/logo.jpg" alt="One Up Handmade Logo">
                 <nav class="top-nav">
-                    <a href="menu.php" class="menu-icon"> 
-                        <i class="fa-solid fa-bars"></i>
-                    </a>    
-                <!--Nav Links-->
-                    <ul class="top-nav">
-                        <li class="top-nav"><a href="index.php">Home</a></li>
-                        <li class="top-nav"><a href="index.php#shop">Shop</a></li>
-                        <li class="top-nav"><a href="about.php">About</a></li>
-                        <li class="top-nav"><a href="contact.php">Contact</a></li>
-                    </ul>
+                        <button class="menu-icon"> 
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                    <!--Nav Links-->
+                        <ul class="top-nav">
+                            <li class="top-nav"><a href="index.php">Home</a></li>
+                            <li class="top-nav"><a href="index.php#shop">Shop</a></li>
+                            <li class="top-nav"><a href="about.php">About</a></li>
+                            <li class="top-nav"><a href="contact.php">Contact</a></li>
+                        </ul>
                     <!--Search bar-->
-                    <div class="wrapper">
-                        <input class="search" type="text" placeholder="Find Cool Stuff">
-                        <span class="search-icon">
-                            <!--<i class="fa-solid fa-x fa-fw fa-2xs"></i>-->
-                            <i class="fa-solid fa-magnifying-glass fa-sm"></i>
-                        </span>
-                        <!--Shopping Cart-->
-                        <a href="cart.php" class="cart">
-                            <i class="fa-solid fa-cart-shopping fa-1x"></i>
-                        </a>
-                    </div>
+                        <div class="wrapper">
+                            <input class="search" type="text" placeholder="Find Cool Stuff">
+                            <span class="search-icon">
+                                <!--<i class="fa-solid fa-x fa-fw fa-2xs"></i>-->
+                                <i class="fa-solid fa-magnifying-glass fa-sm"></i>
+                            </span>
+                            <!--Shopping Cart-->
+                                <a href="cart.php" class="cart">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+                        </div>
                 </nav>
             </header>
             <br>
+
+            <!--Mobile menu-->
+            <nav class="mobile">
+                <div class="menu-wrapper">
+                    <input class="search-menu" type="text" placeholder="Find Cool Stuff">
+                    <span class="search-menu-icon">
+                        <!--<i class="fa-solid fa-x fa-fw fa-2xs"></i>-->
+                        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                    </span>
+                </div>
+                <ul class="menu">
+                    <li class="menu"><a href="index.php">Home</a></li>
+                    <li class="menu"><a href="index.php#shop">Shop</a></li>
+                    <li class="menu"><a href="about.php">About</a></li>
+                    <li class="menu"><a href="contact.php">Contact</a></li>
+                </ul>
+            </nav>
 
         <!-- Item -->
             <section class="item">
