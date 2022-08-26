@@ -27,7 +27,7 @@
             <header>
                 <img class="logo" src="./resources/images/logo.jpg" alt="One Up Handmade Logo">
                 <nav class="top-nav">
-                        <button class="menu-icon"> 
+                        <button class="menu-icon" id="button"> 
                             <i class="fa-solid fa-bars"></i>
                         </button>
                     <!--Nav Links-->
@@ -63,10 +63,10 @@
                     </span>
                 </div>
                 <ul class="menu">
-                    <li class="menu"><a href="index.php">Home</a></li>
-                    <li class="menu"><a href="index.php#shop">Shop</a></li>
-                    <li class="menu"><a href="about.php">About</a></li>
-                    <li class="menu"><a href="contact.php">Contact</a></li>
+                    <a class="link" href="index.php"><li class="menu">Home</li></a>
+                    <a class="link" href="index.php#shop"><li class="menu">Shop</li></a>
+                    <a class="link" href="about.php"><li class="menu">About</li></a>
+                    <a class="link" href="contact.php"><li class="menu">Contact</li></a>
                 </ul>
             </nav>
 
@@ -75,14 +75,14 @@
         
         <!-- Featured Items Section -->
             <table class="center">
-                <caption><h2>Featured Products</h2></caption>
+                <caption><h2 class="shopMargin">Featured Products</h2></caption>
                 <tr>
                     <td><img src="https://goimagine.com/images/detailed/1156/1406231B-119D-421B-AEC1-443B78417827_org.jpeg" alt="product image"></td>
                     <td><img src="https://goimagine.com/images/detailed/1157/3794A9A5-D255-4ADA-877B-00C17AAE585D_org.jpeg" alt="product image"></td>
                     <td><img src="https://goimagine.com/images/detailed/1011/4ADC0E8C-7404-4F69-922F-EC48A6157ECF_org.jpeg" alt="product image"></td>
                 </tr>
             </table>
-            <hr id=shop>
+            <hr id="shop">
 
         <!--Shop-->
             <section>

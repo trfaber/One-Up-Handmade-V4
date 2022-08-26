@@ -31,7 +31,7 @@ hr {
 }
 
 form {
-    font-size: 0.65em;
+    font-size: 0.8em;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -156,7 +156,7 @@ input[type=submit]:hover {
             padding: 4px 4px 2px 4px;
             color: #383838;
         }
-        .menu-icon:hover, .cart:hover {
+        .openMenu, .current, .menu-icon:hover, .cart:hover {
             color: #e2b619;
             cursor:pointer;
         }
@@ -313,7 +313,7 @@ nav.mobile, .menu-wrapper {
             font-size: 1em;
             transition: 0.4s;
         }
-            .active, .collapsible:hover {
+            .currentDropdown, .collapsible:hover {
                 background-color: #e2b619;
                 color: #383838;
             }
@@ -325,7 +325,7 @@ nav.mobile, .menu-wrapper {
             font-size: 0.75em;
             transition: max-height 0.2s ease-out;
         }
-        .active > .fa-angle-down, .active:hover > .fa-angle-down {
+        .currentDropdown > .fa-angle-down, .currentDropdown:hover > .fa-angle-down {
             visibility: hidden;
         }      
 /*Cart*/
@@ -392,15 +392,15 @@ nav.mobile, .menu-wrapper {
             rgba(255,236,165,0.9) 89%);
         padding: 20px 15px;
         margin: auto;
-        width: 50%;
+        width: 60%;
         min-width: 250px;
         box-sizing: border-box;
     }
         .custom {
             align-self: center;
             width: 100%;
-            padding: 8px;
-            margin: 2px;
+            padding: 0.5em;
+            margin: 0.1em;
             border: 1px solid #4dac19;
             border-radius: 4px;
             background-color: #ffffff90;
@@ -418,9 +418,9 @@ nav.mobile, .menu-wrapper {
             cursor: text;
         }
         div.container label {
-            padding: 8px;
-            margin-top: 2px;
-            margin-bottom: 2px;
+            padding: 0.6em;
+            margin-top: 0.2em;
+            margin-bottom: 0.2em;
         }
     /*Join/like/follow social pages*/
         section.joinus {
@@ -637,9 +637,9 @@ footer.bottom-nav {
                     width: 100%;
                     box-sizing: border-box;
                     text-align: center;
-                    padding: 1em;
+                    padding: 0.5em;
                 }
-                    li.menu a {
+                    a.link {
                         color: #fefefe;
                         text-decoration: none;    
                         font-size: 2em;
@@ -649,7 +649,14 @@ footer.bottom-nav {
                                 background-color: #e2b619;
                                 color:#383838
                     }
-            
+        
+    .shopMargin {
+        margin-bottom: 0.75em;
+    }
+    #shop {
+        margin: 2em 0em 1.75em 0em;
+    }
+                    
     /*Item Size*/
     div.gallery > a {
         width: 50%;

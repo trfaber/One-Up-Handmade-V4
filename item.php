@@ -27,7 +27,7 @@
             <header>
                 <img class="logo" src="./resources/images/logo.jpg" alt="One Up Handmade Logo">
                 <nav class="top-nav">
-                        <button class="menu-icon"> 
+                        <button class="menu-icon" id="button"> 
                             <i class="fa-solid fa-bars"></i>
                         </button>
                     <!--Nav Links-->
@@ -63,10 +63,10 @@
                     </span>
                 </div>
                 <ul class="menu">
-                    <li class="menu"><a href="index.php">Home</a></li>
-                    <li class="menu"><a href="index.php#shop">Shop</a></li>
-                    <li class="menu"><a href="about.php">About</a></li>
-                    <li class="menu"><a href="contact.php">Contact</a></li>
+                    <a class="link" href="index.php"><li class="menu">Home</li></a>
+                    <a class="link" href="index.php#shop"><li class="menu">Shop</li></a>
+                    <a class="link" href="about.php"><li class="menu">About</li></a>
+                    <a class="link" href="contact.php"><li class="menu">Contact</li></a>
                 </ul>
             </nav>
 
